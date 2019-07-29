@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RapidValue</title>
     <%= csrf_meta_tags %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'application', media: 'all',
+                                              'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+      </script>
+    <![endif]-->
   </head>
-
   <body>
-    <%= yield %>
+    <header class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <nav>
+          <ul class="nav navbar-nav navbar-right">
+            <li><%= link_to "Home",   '/static_pages/home' %></li>
+            <li><%= link_to "Why rVR?",   'https://jnj.sharepoint.com/teams/rapidValueRealization2/Shared%20Documents/rapidValue_Overview.pdf' %></li>
+            <li><%= link_to "What is Agile?", '#' %></li>
+            <li><%= link_to "Our Services", 'https://jnj.sharepoint.com/teams/rapidValueRealization2/Shared%20Documents/Toolkits/Lego%20Training/General%20Resources/LEGO%20Training%20Offerings.pdf' %></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <footer class="footer">
+  <small>
+    For more help reach out to our<a href="https://www.yammer.com/its.jnj.com/#/threads/inGroup?type=in_group&feedId=12335628"> Community of Practice</a>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to "More Information",   'https://jnj.sharepoint.com/teams/rapidValueRealization2/SitePages/rapid%20Value.aspx?web=1' %></li>
+    </ul>
+  </nav>
+</footer>
   </body>
 </html>
