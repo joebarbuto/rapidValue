@@ -35,5 +35,9 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     get static_pages_play_url
     assert_response :success
   end
+  test "should get services" do
+    get static_pages_services_url
+    assert_response :success
+  end
 
 end

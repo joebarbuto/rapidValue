@@ -19,4 +19,8 @@ class StaticPagesController < ApplicationController
 
   def play
   end
+
+  def services
+  end
+  
 end
