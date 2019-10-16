@@ -22,5 +22,8 @@ class StaticPagesController < ApplicationController
 
   def services
   end
-  
+
+  def roster
+  end
+
 end

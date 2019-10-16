@@ -40,4 +40,9 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should get roster" do
+    get static_pages_roster_url
+    assert_response :success
+  end
+
 end
