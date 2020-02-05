@@ -45,4 +45,9 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should get how might we" do
+    get static_pages_how_might_we_url
+    assert_response :success
+  end
+
 end
