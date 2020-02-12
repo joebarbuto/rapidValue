@@ -27,6 +27,6 @@ class StaticPagesController < ApplicationController
   end
 
   def how_might_we
-  end 
+  end
 
 end
