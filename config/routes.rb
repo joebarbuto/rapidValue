@@ -2,9 +2,9 @@ Rails.application.routes.draw do
 
  get "plays", to: "plays#playpageindex", as: :plays
 
- get "plays/howmightwe", to: "plays#howMightWe"
+ get "plays/howMightWe", to: "plays#howMightWe"
 
- get "plays/empathymap", to: "plays#empathyMap"
+ get "plays/empathyMap", to: "plays#empathyMap"
 
  get "plays/crazy8", to: "plays#crazy8"
 
@@ -12,15 +12,15 @@ Rails.application.routes.draw do
 
  get "plays/kanban", to: "plays#kanban"
 
- get "plays/hypothesistemplate", to: "plays#hypothesisTemplate"
+ get "plays/hypothesisTemplate", to: "plays#hypothesisTemplate"
 
- get "plays/solutionartgallery", to: "plays#solutionArtGallery"
+ get "plays/solutionArtGallery", to: "plays#solutionArtGallery"
 
- get "plays/contextualinquiry", to: "plays#contextualInquiry"
+ get "plays/contextualInquiry", to: "plays#contextualInquiry"
 
- get "plays/productroadmap", to: "plays#productRoadMap"
+ get "plays/productRoadmap", to: "plays#productRoadMap"
 
- get "plays/experimentartgallery", to: "plays#experimentArtGallery"
+ get "plays/experimentArtGallery", to: "plays#experimentArtGallery"
 
   get 'static_pages/home'
 
