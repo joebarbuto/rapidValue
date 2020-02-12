@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
- get "plays", to: "plays#index", as: :plays
+ get "plays", to: "plays#playpageindex", as: :plays
 
  get "plays/howmightwe", to: "plays#howmightwe"
 

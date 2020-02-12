@@ -1,5 +1,5 @@
 class PlaysController < ApplicationController
-def index
+def playpageindex
 
 end
 
