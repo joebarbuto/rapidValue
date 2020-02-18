@@ -13,14 +13,16 @@
   </head>
   <body>
     <header class="navbar navbar-fixed-top navbar-inverse">
+
       <div class="container">
-        <nav>
+        <nav class = "menu">
           <ul class="nav navbar-nav navbar-right">
             <li><%= link_to "Home",   '/' %></li>
-            <li><%= link_to "Why rVR?",   'https://jnj.sharepoint.com/teams/rapidValueRealization2/Shared%20Documents/rapidValue_Overview.pdf', :target=> '_blank' %></li>
-            <li><%= link_to "What is Agile?", 'https://jnj.sharepoint.com/teams/rapidValueRealization2/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FrapidValueRealization2%2FShared%20Documents%2FAgile%20Point%20of%20View%2Epdf&parent=%2Fteams%2FrapidValueRealization2%2FShared%20Documents', :target=> '_blank' %></li>
-            <li><%= link_to "Our Services", '/static_pages/services' %></li>
-            <li><%= link_to "Roster", '/static_pages/roster' %> </li>
+            <li><%= link_to "rV WS Approach Cheat Sheet", '/static_pages/ws_approach' %> </li>
+            <li><%= link_to "Practitioner Enablement Cheat Sheet", '/static_pages/enable' %> </li>
+            <li><%= link_to "Engagement Toolkit", '/static_pages/resources' %> </li>
+            <li><%= link_to "Playbook", '/plays' %> </li>
+            <li><%= link_to "Our Site", 'https://jnj.sharepoint.com/teams/rapidValueRealization2/SitePages/rapid%20Value.aspx?web=1', :target=> "_blank"  %> </li>
           </ul>
         </nav>
       </div>
@@ -33,11 +35,7 @@
   <small>
     For more help reach out to our<strong><a href="https://www.yammer.com/its.jnj.com/#/threads/inGroup?type=in_group&feedId=12335628" target = "_blank"> Community of Practice</a></strong>
   </small>
-  <nav>
-    <ul>
-      <strong><li><%= link_to "rvr.jnj.com",   'https://jnj.sharepoint.com/teams/rapidValueRealization2/SitePages/rapid%20Value.aspx?web=1', :target=> "_blank" %></li></strong>
-    </ul>
-  </nav>
+
 </footer>
   </body>
 </html>
