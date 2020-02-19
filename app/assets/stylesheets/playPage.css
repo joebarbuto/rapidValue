@@ -1,0 +1,16 @@
+
+h2 {
+  color: #1164FC;
+  text-align: left;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size:20px
+}
+
+body{
+font-family: helvetica;
+font-size: 14px;
+}
+ol{
+line-height: 2;
+}
