@@ -1,15 +1,20 @@
 
 <style>
+  h1{
+    color:orange;
+    text-align: center;
+  }
 
-table, td, th {
+  h4{
+    color: orange;
+    text-align: center;
+  }
+
+table, td, {
   border: 1px solid #ddd;
   text-align: left;
 }
 
-h1{
-  color:orange;
-  text-align: center;
-}
 
 table {
   border-collapse: collapse;
@@ -17,60 +22,73 @@ table {
 }
 
 th{
-  color: #1164FC;
+  background-color: #1164FC;
+  color: white;
   text-align: center;
-  padding-bottom: 10px
+  padding-bottom: 10px;
+  border-right: 4px solid #fff;
+
 }
 
 td {
   padding: 10px;
   text-align:left;
-  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 </style>
 
-  <!--h3 {
-    color: #1164FC;
-    text-align: left-align;
-    font-family: helvetica;
-    font-weight: bold;
-  }
-
-body{
-  font-family: helvetica;
-  font-size: 14px;
-}
-ol{
-  line-height: 2;
-}
-
-</style>-->
 
 
 <h1>Play Book</h1>
 
   <div class="row">
     <div class="col-md-12">
+<<<<<<< HEAD
 <img src="HomePage/knotToCurve.png" width="1500" height="300" alt="Knot to Curve">
 <%= image_tag("HomePage/knotToCurve.png", :width=>"1500", :height=>"300", :alt=> "Knot to Curve") %>
+=======
+<img src="app/assets/images/HomePage/knotToCurve.png" width="1500" height="300" alt="Knot to Curve">
+>>>>>>> addimage
 
 </div>
 </div>
+
+<div class="row">
+  <div class="col-md-3">
+    <h4>Does your strategy start with a problem?</h4>
+    </div>
+
+    <div class="col-md-3">
+      <h4>Is value being created for the customer and the stakeholder?</h4>
+      </div>
+
+      <div class="col-md-3">
+        <h4>Are you testing assumptions?</h4>
+        </div>
+
+        <div class="col-md-3">
+          <h4>Does your solution provide value at scale?</h4>
+          </div>
+          </div>
+
+
+<table style="width:100%">
+  <!--<tr>
+    <th>Does your strategy start with a problem?</th>
+    <th>Is value being created for the customer and the stakeholder?</th>
+    <th>Are you testing assumptions?</th>
+    <th>Does your solution provide value at scale?</th>
+  </tr>-->
+  <tr>
+    <th>Explore the Problem</th>
+    <th>Define the Value Proposition</th>
+    <th>Experiment with Customers</th>
+    <th>Scale to Value</th>
+  </tr>
+</table>
 
 
   <table style="width:100%">
-    <tr>
-      <th>Does your strategy start with a problem?</th>
-      <th>Is value being created for the customer and the stakeholder?</th>
-      <th>Are you testing assumptions?</th>
-      <th>Does your solution provide value at scale?</th>
-    </tr>
-    <tr>
-      <th>Explore the Problem</th>
-      <th>Define the Value Proposition</th>
-      <th>Experiment with Customers</th>
-      <th>Scale to Value</th>
-    </tr>
     <tr>
       <td>
         <a href = "/plays/goal">
