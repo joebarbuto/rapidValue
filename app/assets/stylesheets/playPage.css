@@ -21,6 +21,8 @@ line-height: 2;
     padding-bottom:56.25%;
     position:relative;
     height:0;
+
+
 }
 .video-responsive iframe{
     left:0;
@@ -28,4 +30,5 @@ line-height: 2;
     height:100%;
     width:100%;
     position:absolute;
+
 }
