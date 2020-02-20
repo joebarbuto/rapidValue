@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+
      <title><%= yield(:title) %> | rVR Engagement Resources</title>
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all',
@@ -12,12 +13,15 @@
     <![endif]-->
   </head>
   <body>
-    <header class="navbar navbar-fixed-top navbar-inverse">
 
+
+
+  <header class="navbar navbar-fixed-top navbar-inverse">
       <div class="container">
         <nav class = "menu">
           <ul class="nav navbar-nav navbar-right">
             <li><%= link_to "Home",   '/' %></li>
+            <li><%= link_to "What is rVR?", '/static_pages/core' %> </li>
             <li><%= link_to "Workshop Approach", '/static_pages/ws_approach' %> </li>
             <li><%= link_to "Agile Simulation", '/static_pages/enable' %> </li>
             <li><%= link_to "Engagement Toolkit", '/static_pages/resources' %> </li>
