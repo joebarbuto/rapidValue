@@ -1,10 +1,15 @@
-
-h2 {
+h1{
+  font-family: helvetica;
+  font-weight: bold;
   color: #1164FC;
+
+}
+h2 {
+  color: #f95c16;
   text-align: left;
   font-family: helvetica;
   font-weight: bold;
-  font-size:20px
+  font-size:25px
 }
 
 body{
