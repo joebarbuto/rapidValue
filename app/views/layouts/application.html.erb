@@ -2,8 +2,9 @@
 <html>
   <head>
 
-     <title><%= yield(:title) %> | rVR Engagement Resources</title>
-     <%= favicon_link_tag 'HomePage/rv.ico' %>
+    <title><%= yield(:title) %> | rVR Engagement Resources</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <%= favicon_link_tag 'HomePage/rv.ico' %>
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all',
                                               'data-turbolinks-track': 'reload' %>
