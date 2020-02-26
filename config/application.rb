@@ -2,6 +2,11 @@ require_relative 'boot'
 
 require 'rails/all'
 
+config.i18n.fallbacks = {
+  ca: [:ca, :es, :en],
+  es: [:es, :ca, :en],
+  en: [:en, :es, :ca],
+}
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
